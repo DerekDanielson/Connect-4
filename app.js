@@ -10,7 +10,7 @@ const playerTurn = document.querySelector('.playerTurn');
 playerTurn.textContent = `Player ${currPlayer}'s Turn`;
 playerTurn.style.color = 'lime';
 
-//Toard function
+//Board function
 function makeBoard() {
 	for (let i = 0; i < height; i++) {
 		board[i] = [];
